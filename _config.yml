@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
+title:       Notatki prawnicze
 email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "https://pixyll.com"
+author:      Jakub Florian
+description: "Miejsce, w którym przechowuję swoje notatki prawnicze. Mam nadzieję, że będą one pomocne dla innych studentów prawa."
+baseurl:     "https://jakub-florian.github.io/notatki-prawo/"
+url:         "https://jakub-florian.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
