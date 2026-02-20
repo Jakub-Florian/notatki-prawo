@@ -10,6 +10,8 @@ header_pages:
  - about.md
  - contact.html
 
+avatar: "/assets/img/awatar.png"
+
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
