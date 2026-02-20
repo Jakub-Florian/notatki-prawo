@@ -1,25 +1,19 @@
----
-layout: null
----
 {
-  "short_name": "{{ site.title | replace: '"', '\"' }}",
-  "name": "{{ site.title | replace: '"', '\"' }}",
-  "description": "{{ site.description | replace: '"', '\"' }}",
+  "name": "Notatki",
+  "short_name": "Notatki",
   "icons": [
     {
-      "src": "{{ '/splash-512x512.png' | relative_url }}",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-      "src": "{{ '/favicon-192x192.png' | relative_url }}",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": "{{ '/' | relative_url }}",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone",
-  "scope": "{{ '/' | relative_url }}",
-  "theme_color": "#ffffff"
+  "display": "standalone"
 }
