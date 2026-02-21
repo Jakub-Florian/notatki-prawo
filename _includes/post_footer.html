@@ -3,5 +3,10 @@
   <div class="post-signature">
     <div class="post-signature__name">{{ site.author }}</div>
     <div class="post-signature__bio">{{ site.bio }}</div>
+  {% if site.github_username %}
+      <div class="post-signature__contact">
+        <a href="https://github.com/{{ site.github_username }}">GitHub: @{{ site.github_username }}</a>
+      </div>
+    {% endif %}
   </div>
 </div>

@@ -17,6 +17,7 @@ show_related_posts:   false
 author: "Jakub Węgrzynowski"
 avatar: "/assets/img/awatar.png"   # ustaw ścieżkę do Twojego avatara
 bio: "student prawa WPiA UŁ · copywriter ·"
+github_username: "Jakub-Florian"
 show_post_footers:    true
 show_social_icons:    false
 enable_mathjax: false
