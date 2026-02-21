@@ -14,7 +14,10 @@ avatar: "/assets/img/awatar.png"
 # Optional features
 animated:             false
 show_related_posts:   false
-show_post_footers:    false
+author: "Jakub Węgrzynowski"
+avatar: "/assets/img/awatar.png"   # ustaw ścieżkę do Twojego avatara
+bio: "student prawa WPiA UŁ · copywriter ·"
+show_post_footers:    true
 show_social_icons:    false
 enable_mathjax: false
 extended_fonts: false

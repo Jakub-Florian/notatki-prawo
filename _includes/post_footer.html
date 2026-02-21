@@ -1,10 +1,7 @@
-<div class="py2 post-footer">
-  <img src="{{ site.baseurl }}/images/me.jpeg" alt="John Otander" class="avatar" />
-  <p>
-    Pixyll is an open-source Jekyll theme that's built by <a href="https://johno.com/">John Otander</a>.
-    When he's not writing code and building things, he likes to ski. A. Lot.
-  </p>
-  <p>
-    Follow him on <a href="https://twitter.com/4lpine">Twitter</a>.
-  </p>
+<div class="post-footer">
+  <img class="avatar" src="{{ site.avatar | relative_url }}" alt="{{ site.author | escape }}">
+  <div class="post-signature">
+    <div class="post-signature__name">{{ site.author }}</div>
+    <div class="post-signature__bio">{{ site.bio }}</div>
+  </div>
 </div>
